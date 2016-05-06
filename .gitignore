@@ -1,0 +1,5 @@
+log/*.log
+/node_modules
+/public/webpack
+bin/selenium-server-standalone.jar
+bin/chromedriver

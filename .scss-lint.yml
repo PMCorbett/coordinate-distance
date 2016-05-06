@@ -1,0 +1,8 @@
+---
+linters:
+  BemDepth:
+    enabled: false
+    max_elements: 1
+  SelectorFormat:
+    enabled: true
+    convention: hyphenated_BEM

@@ -1,0 +1,5 @@
+node_modules
+karma.*.js
+webpack/tests/e2e
+webpack.*.js
+coverage/
