@@ -13,8 +13,8 @@ describe('distanceCalculator', () => {
         }
       }
       const points = {
-        point1: { lat: 51, long: 1 },
-        point2: { lat: 56, long: 1 },
+        point1: { latitude: 51, long: 1 },
+        point2: { latitude: 56, long: 1 },
         unitConverter: new DummyConverter()
       };
       const calc = new DistanceCalculator(points);
@@ -35,8 +35,8 @@ describe('distanceCalculator', () => {
         }
       }
       const points = {
-        point1: { lat: 0, long: 1 },
-        point2: { lat: 6, long: 6 },
+        point1: { latitude: 0, long: 1 },
+        point2: { latitude: 6, long: 6 },
         unitConverter: new DummyConverter()
       };
       const calc = new DistanceCalculator(points);
@@ -58,8 +58,8 @@ describe('distanceCalculator', () => {
         }
       }
       const points = {
-        point1: { lat: 0, long: 1 },
-        point2: { lat: 6, long: 6 },
+        point1: { latitude: 0, long: 1 },
+        point2: { latitude: 6, long: 6 },
         unitConverter: new DummyConverter()
       };
       const calc = new DistanceCalculator(points);

@@ -27,11 +27,11 @@ class DistanceCalculator {
   // Private
 
   averagelatitude() {
-    return (this.point1.lat + this.point2.lat) / 2;
+    return (this.point1.latitude + this.point2.latitude) / 2;
   }
 
   latitudeDifference() {
-    return Math.abs(this.point1.lat - this.point2.lat);
+    return Math.abs(this.point1.latitude - this.point2.latitude);
   }
 
   longitudeDifference() {
