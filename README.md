@@ -4,7 +4,7 @@ Calculates distances between two latitude / longitude coordinates in degrees or 
 
 ## Example Usage
 
-```
+```javascript
   import DistanceCalculator from './DistanceCalculator';
   import MilesConverter from './MilesConverter';
 
