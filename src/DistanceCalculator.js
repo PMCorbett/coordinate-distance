@@ -21,7 +21,7 @@ class DistanceCalculator {
   crowflyDistance() {
     const latDist = this.latitudeDistance();
     const longDist = this.longitudeDistance();
-    return (latDist + longDist) / 2;
+    return Math.sqrt(Math.pow(latDist, 2) + Math.pow(longDist, 2));
   }
 
   // Private
